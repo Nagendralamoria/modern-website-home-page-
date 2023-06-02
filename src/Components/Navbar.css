@@ -1,0 +1,39 @@
+.Navbar{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    grid-template-columns: 15% 15% 50% 10%;
+}
+.Navbar img{
+    width: 100%;
+}
+.Nav-tabs{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+.Nav-tabs li{
+    list-style: none;
+    cursor: pointer;
+}
+.Nav-tabs li:hover{
+    color: #EC0A90;
+}
+.Navbar button{
+    padding: 0.8rem 1rem;
+    border: none;
+    background-color: #EC0A90;
+    color: #fff;
+    font-weight: 800;
+}
+.Navbar button:hover{
+    background-color: #00AEEF;
+}
+.icons{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    color: #EC0A90;
+}

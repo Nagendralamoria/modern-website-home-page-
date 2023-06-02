@@ -1,0 +1,60 @@
+.booking_card{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    max-width: 50rem;
+    border-radius:0.5rem;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .booking_card > img{
+  width: 50%;
+  
+  object-fit: contain;
+  }
+  .flight_timings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .flight_totaltime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .border_flight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .border{
+    width: 8rem;
+    height: 0px;
+    border: 0.5px solid rgb(46, 46, 46);
+  }
+  .flight_icon{
+    rotate: 90deg;
+    font-size: 1.2rem;
+    color: rgb(95, 95, 95);
+  }
+  .flight_price{
+    border-left: 0.5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap: 0.5rem;
+  }
+  .flight_price > button{
+    padding: 0.5rem 1rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+    background-color: #05203c;
+  }

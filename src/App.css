@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f5f8fa;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Nav-top p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navtop-icons{
+    font-size: 1.2rem;
+    color: #EC0A90;
+} 
+.hero-page{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #1A1E5D;
 }
+.hero-page-details{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    padding: 2.5rem 0rem 2.5rem 0rem;
+    gap: 1rem;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-page-details h1{
+    font-size: 5rem;
+}
+.hero-page-details h3{
+    font-size: 2rem;
+}
+.hero-page-details p{
+    font-size: 1.5rem;
+    border-left:solid orange ;
+    padding-left: 1.5rem;
+}
+.hero-page-details button{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+    background-color: #EC0A90;
+    max-width: 70%;
+    border: none;
+    padding: 1rem 2rem;
+    
+}
+.hero-page-details button:hover{
+    background-color: #00AEEF
+}
+.hero-page img{
+    width :100%;
+    height: 100%;
+    object-fit: cover;
+}
+.products{
+    margin: 2rem;
+    text-align: center;
+    
+}
+.products h1{
+    font-size: 3rem;
+}
+.products-details{
+        display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 4rem 2rem 4rem; 
+}
+.products-details  li{
+    list-style: none;
+    margin: 1rem;
+}
+.products-details li:hover{
+    color: #EC0A90;
+    cursor: pointer;
+}
+.promotions{
+   text-align: center;
+   margin: 4rem;
+}
+.promotions h1{
+    font-size: 3rem;
+}
+.promotions-cards{
+    display: flex;
+    gap: 1rem;
+    margin:2rem ;
+    align-items: center;
+    justify-content: center;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem;
+}
+.clients h1{
+    font-size: 3rem;
+}
+.logo-grid{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+.client-logo img{
+ object-fit: cover;
+ width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
