@@ -5,6 +5,8 @@ import Promotioncard from "./Components/Promotioncard";
 import { AiFillHeart, AiOutlineMail } from "react-icons/ai";
 import { SlCallIn } from "react-icons/sl";
 import { BsFillPersonFill } from "react-icons/bs";
+import Buycard from "./Components/Buycard";
+import Buycard2 from "./Components/Buycard2";
 function App() {
   return (
     <div className="App">
@@ -125,6 +127,20 @@ function App() {
             />
           </div>
         </div>
+      </div>
+      <div className="products_title">
+        <h1>Popular Products</h1>
+        <p className="pink">View a few of our most popular products.</p>
+      </div>
+      <div className="products_grid">
+        <Buycard />
+        <Buycard2 />
+        <Buycard />
+        <Buycard2 />
+        <Buycard />
+        <Buycard2 />
+        <Buycard />
+        <Buycard2 />
       </div>
       <Footer />
     </div>

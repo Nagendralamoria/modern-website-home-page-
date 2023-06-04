@@ -117,3 +117,13 @@
  width: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+.products_grid{
+    display: grid;
+    padding: 4rem;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.products_title {
+    font-size: 1.5rem;
+    text-align: center;
+}
