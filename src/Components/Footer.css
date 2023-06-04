@@ -1,0 +1,69 @@
+.Footer{
+   
+  }
+  .footer_upersection{
+    padding: 4rem 4rem 0.5rem 4rem;
+  }
+  .footer_upersection img{
+    background-color: black;
+    padding: 2rem 4rem 2rem 4rem ;
+    max-width: 18rem;
+  }
+.footer_lowersection{
+    padding: 4rem;
+    padding-top: 0.5rem;
+    background-color: #1D1D1D;
+    background-image: url("https://printcalgary.com/wp-content/uploads/2021/10/borders_shape.png");
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.black-box_box{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    max-width: 22rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.black-box_box p {
+    font-size: 1rem;
+}
+.footer_icons{
+    background-color: #EC0A90;
+    padding: 0.5rem;
+    border-radius: 100%;
+    overflow: visible;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.footer_icons:hover
+{
+   background-color: #da0886;
+}
+.icons_footer_div{
+    display: flex;
+    gap: 1rem;
+}
+.copyrights{
+    margin-top: 2rem;
+    background-color: #342828;
+    padding: 1rem;
+}
+.Footer_quicklinks{
+    color: white;
+}
+.footer_links li{
+    list-style: none;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+}
+.w_fix{
+    max-width: 10rem;
+}
+.flex-gap{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
